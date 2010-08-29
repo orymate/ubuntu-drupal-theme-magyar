@@ -1,0 +1,40 @@
+a.openid-provider-google, a.openid-provider-yahoo, a.openid-provider-launchpad, a.openid-provider-openid {
+  background-image: url(providers.png);
+  width: 25px;
+  height: 25px;
+  text-indent: -1000000px;
+  display: block;
+  float: left;
+  margin: 4px 6.5px;
+border: 2px solid #ef5a29;
+        border-radius: 2px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+  box-shadow: inset #DFDFDF 2px 2px 2px;
+  -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
+  -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+}
+
+a.selected-openid-provider, a.openid-provider-google:hover, a.openid-provider-yahoo:hover, a.openid-provider-launchpad:hover, a.openid-provider-openid:hover {
+  border-color: #b73f00;
+}
+
+a.openid-provider-google {
+  background-position: 0 0;
+}
+a.openid-provider-yahoo {
+  background-position: -25px 0;
+}
+a.openid-provider-launchpad {
+  background-position: -50px 0;
+}
+a.openid-provider-openid {
+  background-position: -75px 0;
+}
+
+#user-login .item-list li {
+  display: block;
+}
+#user-login div {
+  clear: both;
+}

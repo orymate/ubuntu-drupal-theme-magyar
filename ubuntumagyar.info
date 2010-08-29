@@ -1,0 +1,18 @@
+name = Ubuntu Magyar Drupal Theme 
+base theme = udtheme
+core = 6.x
+stylesheets[all][] = mystyle.css
+stylesheets[all][] = quickopenid/quickopenid.css
+scripts[] = comment.js
+scripts[] = quickopenid/openid-jquery.js
+
+
+
+regions[header] = Header
+regions[subheader] = Second Header
+regions[left] = Left Sidebar
+regions[right] = Right Sidebar
+regions[content] = Below Content
+regions[footer] = Footer
+regions[above_content] = Above content and sidebars
+regions[top_content] = Above content but between sidebars

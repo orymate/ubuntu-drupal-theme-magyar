@@ -1,0 +1,287 @@
+html {
+  background-color: #eeecea;
+  color: #000;
+}
+
+div#comments {
+  margin-top: 20px;
+}
+
+.js .comment span.new {
+  cursor: pointer;
+}
+
+.comment {
+  clear: both;
+  border-left-color: #772953;
+}
+
+.comment.odd {
+  border-left-color: #dd4815;
+}
+
+.comment-new {
+  border-right: 3px solid #dd4815;
+}
+
+.comment-selected {
+  border-right: 3px solid #772953;
+}
+
+.comment-selected.comment-new {
+  /* ? */
+}
+
+.node .links, .comment .links {
+  float: right;
+}
+
+ul.links li.comment_forbidden {
+  display: none;
+}
+
+.comment-signature {
+  color: #aea79f;
+  font-size:0.8333em;
+  max-height: 2em;
+  overflow: hidden;
+}
+
+#footer {
+  background: url("footer.png") repeat-x scroll 0 0 #EEECEA;
+}
+
+.sidebar-right {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.sidebar-left {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.block-ubuntucountdown {
+  background: transparent!important;
+  border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  padding: 0!important;
+}
+
+#subheader {
+  background: url("dotted.png") repeat scroll 0 0 #FFFFFF;
+}
+
+#content {
+  background: url("dotted.png") repeat scroll 0 0 #FFFFFF;
+}
+
+#header {
+  background: url("header_b.png") repeat-x scroll 0 0 #dd4814;
+  height: 64px;
+  border-bottom: 1px #9f9d9c none;
+  border-collapse: collapse;
+}
+
+#header .links li {
+  height: 64px;
+  background: url("topnav_divider.png") no-repeat scroll 0 0 transparent;
+  border-style: none;
+}
+#header .links li a {
+  font-size: 110%;
+  height: 64px;
+  line-height: 64px;
+}
+#header .links li.last a {
+  background: url("topnav_divider.png") no-repeat scroll right 0 transparent;
+}
+div#logo {
+  height: 64px;
+  margin: 0 5px 0;
+}
+
+div#logo a  {
+  height: 64px;
+  display: block;
+}
+div#logo a img {
+  display: block;
+  margin: 18px 0; /*(64-27)/2*/
+}
+
+#block-block-5 div div {
+  margin: -21px -10px 0;
+  border-style: none;
+  padding: 0;
+}
+
+.tabs.primary a.active {
+  border-bottom-width: 3px;
+}
+
+#header li a.active, #header li a:hover {
+  background: url("header_b_active.png") repeat-x scroll 0 0 #b83a10!important;
+}
+
+#header li a {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.section-admin .sidebars#center {
+  width: 520px;
+}
+
+#cse-search-box {
+  border: 2px solid #ef5a29;
+  background: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: inset #DFDFDF 2px 2px 2px;
+  -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
+  -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+}
+
+#cse-search-box * {
+  margin: 0;
+  padding: 0;
+  color: #E24E00;
+  font-size: 10px !important;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+}
+
+#block-block-1 {
+  background: transparent!important;
+  border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  padding: 0!important;
+}
+
+#block-block-1 div {
+  width: 190px;
+  position: relative;
+}
+
+.cse-q {
+  width: 140px!important;
+}
+
+.cse-sa {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  cursor: pointer;
+}
+
+div.clear {
+  clear: both;
+}
+
+table tr.odd {
+  /*background-color: #dfdcd9;*/
+  background-color: #fff;
+}
+
+table tr.even {
+  background-color: #f7f6f5;
+}
+
+#content .block h2, .comment h3 a {
+  color: #772953;
+}
+
+h1, #center h2 a {
+  color: #dd4814;
+}
+
+.sidebar .block {
+  background:  #f7f6f5;
+}
+
+table .marker, table td.replies a {
+  background-color: #ef5a29;
+  color: #fff;
+  padding: 1px 2px;
+}
+
+span.narancs {
+  color: #ef5a29;
+}
+
+span.lila {
+  color: #772953;
+}
+
+.block-user .form-text {
+  border: 2px solid #ef5a29;
+  background-color: #FFFFFF!important;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: inset #DFDFDF 2px 2px 2px;
+  -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
+  -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+}
+
+.block-user .form-submit {
+  border-style: none;
+  background-color: #ef5a29;
+  color: #fff;
+  font-size: 10px !important;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: #DFDFDF 2px 2px 2px;
+  -moz-box-shadow: #DFDFDF 2px 2px 2px;
+  -webkit-box-shadow: #DFDFDF 2px 2px 2px;
+}
+
+.block-user .form-text:focus {
+  border-color: #b73f00;
+}
+
+.container {
+  border-color: #eee; border-width: 2px; border-style: none solid;
+}
+
+.section-tracker table tr td {
+  min-height: 3em;
+  padding-right: .25em;
+  padding-left: .25em;
+}
+
+body {
+  font-family: "UbuntuBeta","DejaVu Sans",Tahoma,sans-serif;
+}
+
+code, pre {
+  font-family: "DejaVu Sans Mono",monospace;
+}
+
+@media print {
+  .sidebar, #header, .links, .tabs, #comment-controls {
+    display: none!important;
+  }
+  * {
+    overflow: visible!important;
+  }
+  .comment {
+    page-break-inside: avoid;
+  }
+}
+
+
+/* vim: set sw=2 expandtab ai: */
