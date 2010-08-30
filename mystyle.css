@@ -7,6 +7,14 @@ body {
   font-size: inherit;
 }
 
+.content a:link, .content a:visited, .content a:active {
+  color: #772953;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 div#comments {
   margin-top: 20px;
 }
