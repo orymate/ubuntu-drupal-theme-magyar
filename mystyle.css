@@ -275,6 +275,10 @@ code, pre {
   font-family: "DejaVu Sans Mono",monospace;
 }
 
+.comment-unpublished {
+  background-color: #eee;
+}
+
 @media print {
   .sidebar, #header, .links, .tabs, #comment-controls {
     display: none!important;
