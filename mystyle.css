@@ -275,12 +275,17 @@ span.lila {
   padding-left: .25em;
 }
 
+* {
+  font-family: inherit;
+}
 body {
   font-family: "UbuntuBeta","DejaVu Sans",Tahoma,sans-serif;
 }
 
 code, pre {
   font-family: "DejaVu Sans Mono",monospace;
+  background-color: #f7f6f5;
+  color: #000;
 }
 
 .comment-unpublished {
