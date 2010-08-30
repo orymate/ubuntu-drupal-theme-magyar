@@ -3,6 +3,10 @@ html {
   color: #000;
 }
 
+body {
+  font-size: inherit;
+}
+
 div#comments {
   margin-top: 20px;
 }
