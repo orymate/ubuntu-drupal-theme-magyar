@@ -150,7 +150,12 @@ div#logo a img {
   width: 520px;
 }
 
+/* kereses */
 #cse-search-box {
+  width: 190px;
+  position: relative;
+}
+#cse-search-box .cse-q {
   border: 2px solid #ef5a29;
   background: #FFFFFF;
   border-radius: 5px;
@@ -159,16 +164,16 @@ div#logo a img {
   box-shadow: inset #DFDFDF 2px 2px 2px;
   -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
   -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+  width: 126px!important;
+  padding-right: 60px!important;
 }
 
 #cse-search-box * {
-  margin: 0;
-  padding: 0;
   color: #E24E00;
-  font-size: 10px !important;
+  font-size: 12px !important;
   font-weight: bold;
-  border: none;
-  background: transparent;
+  border-style: none;
+  background-color: transparent;
 }
 
 #block-block-1 {
@@ -183,21 +188,14 @@ div#logo a img {
   overflow: inherit;
 }
 
-#block-block-1 div {
-  width: 190px;
-  position: relative;
-}
-
-.cse-q {
-  width: 140px!important;
-}
-
 .cse-sa {
   position: absolute;
-  right: 6px;
-  top: 0;
+  right: 1px;
+  top: 1px;
   cursor: pointer;
 }
+
+/* /kereses */
 
 div.clear {
   clear: both;
