@@ -292,6 +292,10 @@ code, pre {
   background-color: #eee;
 }
 
+.forum-topic-navigation, .block {
+  overflow: hidden;
+}
+
 @media print {
   .sidebar, #header, .links, .tabs, #comment-controls {
     display: none!important;
