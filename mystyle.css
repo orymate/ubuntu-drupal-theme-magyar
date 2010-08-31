@@ -74,6 +74,7 @@ ul.links li.comment_forbidden {
 }
 
 .block-ubuntucountdown {
+  overflow: inherit;
   background: transparent!important;
   border-radius: 0!important;
   -moz-border-radius: 0!important;
@@ -130,6 +131,7 @@ div#logo a img {
   margin: -21px -10px 0;
   border-style: none;
   padding: 0;
+  overflow: inherit;
 }
 
 .tabs.primary a.active {
@@ -178,6 +180,7 @@ div#logo a img {
   -moz-box-shadow: none!important;
   -webkit-box-shadow: none!important;
   padding: 0!important;
+  overflow: inherit;
 }
 
 #block-block-1 div {
@@ -292,7 +295,7 @@ code, pre {
   background-color: #eee;
 }
 
-.forum-topic-navigation, .block {
+.forum-topic-navigation, .sidebar .block {
   overflow: hidden;
 }
 
