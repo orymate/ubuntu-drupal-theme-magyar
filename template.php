@@ -118,6 +118,7 @@ function ubuntumagyar_username($object, $long = false) {
         case   105: // sdc
 	case  5936: // kockacukor
 	case  3841: // gorkhaan
+        case 17581: case 10460: case 9932: case 7047: case 8927: // node/20628
         $output .= ' – ' . l('moderátor', 'kapcsolat', array('attributes' => array('class' => 'username-mod')));
 	break;
 // http://ubuntu.hu/node/13105
