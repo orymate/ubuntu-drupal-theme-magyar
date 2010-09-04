@@ -1,6 +1,6 @@
 html {
   background-color: #eeecea;
-  color: #000;
+  color: #333;
 }
 
 body {
@@ -8,7 +8,8 @@ body {
 }
 
 .content a:link, .content a:visited, .content a:active {
-  color: #772953;
+  /* color: #772953; */
+  color: #dd4815;
 }
 
 a:visited {
@@ -110,6 +111,9 @@ ul.links li.comment_forbidden {
   height: 64px;
   line-height: 64px;
 }
+div#center li a {
+  color: #dd4815;
+}
 #header .links li.last a {
   background: url("topnav_divider.png") no-repeat scroll right 0 transparent;
 }
@@ -136,6 +140,9 @@ div#logo a img {
 
 .tabs.primary a.active {
   border-bottom-width: 3px;
+}
+.tabs.primary a {
+  color: #000!important;
 }
 
 #header li a.active, #header li a:hover {
@@ -278,6 +285,7 @@ span.lila {
 
 * {
   font-family: inherit;
+  color: inherit;
 }
 body {
   font-family: "UbuntuBeta","DejaVu Sans",Tahoma,sans-serif;
@@ -286,7 +294,7 @@ body {
 code, pre {
   font-family: "DejaVu Sans Mono",monospace;
   background-color: #f7f6f5;
-  color: #000;
+  color: #333;
 }
 
 .comment-unpublished {
@@ -295,6 +303,10 @@ code, pre {
 
 .forum-topic-navigation, .sidebar .block {
   overflow: hidden;
+}
+
+.submitted, .comment-bar {
+  color: #000;
 }
 
 @media print {
