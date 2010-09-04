@@ -11,8 +11,10 @@
   <head>
     <title><?php print $head_title ?></title>
     <?php print $head ?>
+    <!--[if gte IE 8]><! -->
     <?php print $styles ?>
     <?php print $scripts ?>
+    <!--<![endif]-->
   </head>
   <body <?php print phptemplate_body_attributes($is_front, $layout, $logged_in); ?>>
     <!-- Header -->
