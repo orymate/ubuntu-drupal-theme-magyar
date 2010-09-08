@@ -107,7 +107,8 @@ function ubuntumagyar_username($object, $long = false) {
         case  14: //maat
         case  29: //toros
         case  64: //zaivaldi
-        case  2711: // ulysses
+        case 2711: //ulysses
+	case 4737: //bogi
         $output .= ' – ' . l('ubuntu.hu szerkesztő', 'kapcsolat', array('attributes' => array('class' => 'username-web')));
 	break;
 	case   357: // n-drew
@@ -130,7 +131,6 @@ function ubuntumagyar_username($object, $long = false) {
 	case 708:
 	case 16:
 	case 268:
-	case 4737:
         $output .= ' – ' . l('magyar közösségi tag', 'http://ubuntu.hu/node/12220', array('attributes' => array('class' => 'username-mkt')));
 	break;
       }
