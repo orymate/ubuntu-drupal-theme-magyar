@@ -291,9 +291,9 @@ body {
   font-family: "UbuntuBeta","DejaVu Sans",Tahoma,sans-serif;
 }
 
-code, pre {
-  font-family: "DejaVu Sans Mono",monospace;
-  background-color: #f7f6f5;
+code, pre, div.syntaxhighlighter.pre table tr td .container {
+  font-family: "DejaVu Sans Mono",monospace!important;
+  background-color: #f7f6f5!important;
   color: #333;
 }
 
