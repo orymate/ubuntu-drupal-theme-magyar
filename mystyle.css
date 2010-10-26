@@ -290,7 +290,7 @@ span.lila {
   color: inherit;
 }
 body {
-  font-family: "UbuntuBeta","DejaVu Sans",Tahoma,sans-serif;
+  font-family: "UbuntuBeta","Ubuntu","DejaVu Sans",Tahoma,sans-serif;
 }
 
 code, pre, div.syntaxhighlighter.pre table tr td .container {
