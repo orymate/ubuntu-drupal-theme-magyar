@@ -74,7 +74,7 @@ ul.links li.comment_forbidden {
   padding: 0 10px;
 }
 
-.block-ubuntucountdown {
+.block-ubuntucountdown, #block-block-8 {
   overflow: inherit;
   background: transparent!important;
   border-radius: 0!important;
@@ -88,6 +88,8 @@ ul.links li.comment_forbidden {
 
 #subheader {
   background: url("dotted.png") repeat scroll 0 0 #FFFFFF;
+  max-height: 50px;
+  overflow: hidden;
 }
 
 #content {
