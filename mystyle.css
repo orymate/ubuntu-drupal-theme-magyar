@@ -212,6 +212,8 @@ span.lila {
   box-shadow: inset #DFDFDF 2px 2px 2px;
   -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
   -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .block-user .form-submit {
@@ -349,6 +351,8 @@ code, pre, div.syntaxhighlighter.pre table tr td .container {
     position: absolute;
     top: 10px;
     left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
     -moz-border-radius-topleft: 10px;
