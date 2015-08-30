@@ -109,17 +109,18 @@ function ubuntumagyar_username($object, $long = false) {
         case  64: //zaivaldi
         case 2711: //ulysses
 	case 4737: //bogi
+	case 21188: //bogi
+        case 8927: //phace
         $output .= ' – ' . l('ubuntu.hu szerkesztő', 'kapcsolat', array('attributes' => array('class' => 'username-web')));
 	break;
 	case   357: // n-drew
         case  6870: // edyth
         #case  2711: // ulysses
         case 10393:  // test
-        case   829: // bios007
-        case   105: // sdc
-	case  5936: // kockacukor
+        #case   829: // bios007
+        #case   105: // sdc
 	case  3841: // gorkhaan
-        case 17581: case 10460: case 9932: case 7047: case 8927: // node/20628
+        case 17581: case 10460: /*case 9932:*/ case 7047:  // node/20628
         $output .= ' – ' . l('moderátor', 'kapcsolat', array('attributes' => array('class' => 'username-mod')));
 	break;
 // http://ubuntu.hu/node/13105

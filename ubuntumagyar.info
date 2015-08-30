@@ -3,6 +3,7 @@ base theme = udtheme
 core = 6.x
 stylesheets[all][] = mystyle.css
 stylesheets[all][] = quickopenid/quickopenid.css
+scripts[] = jQuery-Placeholder/jquery.placeholder.js
 scripts[] = comment.js
 scripts[] = quickopenid/openid-jquery.js
 

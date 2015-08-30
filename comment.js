@@ -11,5 +11,6 @@ $(document).ready(function () {
       $('.comment-selected').removeClass('comment-selected');
       $("#" + $(this).attr('href').split("#")[1]).addClass('comment-selected');
       });
+    $(".cse-q").placeholder();
 });
 

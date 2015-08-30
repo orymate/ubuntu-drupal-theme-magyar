@@ -74,7 +74,7 @@ ul.links li.comment_forbidden {
   padding: 0 10px;
 }
 
-.block-ubuntucountdown, #block-block-8 {
+.block-ubuntucountdown, #block-block-8, #block-block-10, #block-block-1 {
   overflow: inherit;
   background: transparent!important;
   border-radius: 0!important;
@@ -84,6 +84,10 @@ ul.links li.comment_forbidden {
   -moz-box-shadow: none!important;
   -webkit-box-shadow: none!important;
   padding: 0!important;
+}
+.block-plusone, #block-block-12 {
+  float: right;
+  height: 0;
 }
 
 #subheader {
@@ -159,52 +163,6 @@ div#logo a img {
   width: 520px;
 }
 
-/* kereses */
-#cse-search-box {
-  width: 190px;
-  position: relative;
-}
-#cse-search-box .cse-q {
-  border: 2px solid #ef5a29;
-  background: #FFFFFF;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  box-shadow: inset #DFDFDF 2px 2px 2px;
-  -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
-  -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
-  width: 126px!important;
-  padding-right: 60px!important;
-}
-
-#cse-search-box * {
-  color: #E24E00;
-  font-size: 12px !important;
-  font-weight: bold;
-  border-style: none;
-  background-color: transparent;
-}
-
-#block-block-1 {
-  background: transparent!important;
-  border-radius: 0!important;
-  -moz-border-radius: 0!important;
-  -webkit-border-radius: 0!important;
-  box-shadow: none!important;
-  -moz-box-shadow: none!important;
-  -webkit-box-shadow: none!important;
-  padding: 0!important;
-  overflow: inherit;
-}
-
-.cse-sa {
-  position: absolute;
-  right: 1px;
-  top: 1px;
-  cursor: pointer;
-}
-
-/* /kereses */
 
 div.clear {
   clear: both;
@@ -297,6 +255,8 @@ code, pre, div.syntaxhighlighter.pre table tr td .container {
   font-family: "DejaVu Sans Mono",monospace!important;
   background-color: #f7f6f5!important;
   color: #333;
+  overflow: auto;
+  max-height: 8em;
 }
 
 .comment-unpublished {
@@ -325,6 +285,108 @@ code, pre, div.syntaxhighlighter.pre table tr td .container {
 
 .indented {
   margin-left: 10px!important;
+}
+.forum-topic-navigation {
+  height: auto;
+}
+
+#block-menu-menu-infosav div {
+  margin: 0; padding: 0;
+}
+#block-menu-menu-infosav li {
+  margin: 0 10px 10px 0; padding: 0;
+  display: block;
+  float: left;
+}
+
+#block-menu-menu-infosav li a {
+  padding-left: 10px;
+  display: block;
+  width: 210px;
+  line-height: 39px;
+  height: 40px;
+  background-color: #aea79f;
+  font-size: 15px!important;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  color: #333!important;
+}
+
+#block-menu-menu-infosav li a[title~="Kiemelt:"] {
+  background-color: #77216f;
+  color: #fff!important;
+}
+#block-menu-menu-infosav li a:hover {
+  background-color: #dd4814;
+  color: #fff!important;
+}
+
+#block-menu-menu-infosav {
+  clear: both;
+  padding: 0 0 0 35px!important;
+  margin: 0 0px -10px 10px;
+  background-image: url(i.png);
+  background-repeat: no-repeat;
+  min-height: 40px;
+  width: 940px;
+}
+
+#above_content_end {
+  clear: both;
+}
+
+
+#cse-search-box {
+    height: 50px;
+    width: 190px;
+    position: relative;
+    background: transparent;
+}
+#search {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border: none;
+    outline: none;
+    background: #dd4814;
+    color: #ffffff;
+    font: 14px Ubuntu, Bitstream Vera Sans, DejaVu Sans, Tahoma, sans-serif;
+    padding: 0px 0px 0px 10px;
+}
+#search::-webkit-input-placeholder {
+    color: #ffffff;
+}
+#search:-moz-placeholder {
+    color: #ffffff;
+}
+#submit {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+#center h1 {
+  padding-right: 100px;
+}
+/*
+@import url(style-small.css) handheld;
+@import url(style-small.css) screen and (max-width: 800px);
+*/
+
+#block-block-15 .content p {
+          text-align: center!important;
+}
+#block-block-15 {
+    background-color: transparent;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    border-style: none;
 }
 
 /* vim: set sw=2 expandtab ai: */
