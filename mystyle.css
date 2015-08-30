@@ -309,5 +309,8 @@ code, pre {
   }
 }
 
+.indented {
+  margin-left: 10px!important;
+}
 
 /* vim: set sw=2 expandtab ai: */
