@@ -237,6 +237,9 @@ span.lila {
 
 .container {
   border-color: #eee; border-width: 2px; border-style: none solid;
+  min-width: 980px;
+  max-width: 1400px;
+  width: auto !important;
 }
 
 .section-tracker table tr td {
