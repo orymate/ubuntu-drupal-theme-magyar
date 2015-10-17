@@ -307,7 +307,7 @@ code, pre, div.syntaxhighlighter.pre table tr td .container {
 #block-menu-menu-infosav li a {
   padding-left: 10px;
   display: block;
-  width: 210px;
+  width: 200px;
   line-height: 39px;
   height: 40px;
   background-color: #aea79f;
@@ -334,7 +334,6 @@ code, pre, div.syntaxhighlighter.pre table tr td .container {
   background-image: url(i.png);
   background-repeat: no-repeat;
   min-height: 40px;
-  width: 940px;
 }
 
 #above_content_end {
